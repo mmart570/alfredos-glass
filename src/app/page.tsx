@@ -1,8 +1,11 @@
+import Hero from "@/components/home/Hero";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="h-screen bg-orange-400">
-      <h1 className="flex justify-center text-9xl">Alfredo's Glass Services</h1>
-    </div>
+    <>
+      <Hero />
+    </>
   );
-}
+};
+
+export default Home;
