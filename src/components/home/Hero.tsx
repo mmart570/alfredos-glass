@@ -1,16 +1,13 @@
 "use client";
 
-import CircularText from "@/components/home/CircularText";
+import CircularText from "@/components/home/CircularText"; // TURD: delete if unused
 
 const Hero = () => {
-    return (
-        <div className="flex w-full flex-col items-center justify-center">
-            <div className="flex w-1/2 flex-col items-center justify-center pl-5 text-center">
-                <CircularText text="Alfredo's Glass Services" />
-            </div>
-        
-        </div>
-    );
+  return (
+    <div className="flex w-full flex-col items-center justify-center">
+      <h1 className="flex w-1/2 flex-col items-center justify-center text-center text-white"></h1>
+    </div>
+  );
 };
 
 export default Hero;
