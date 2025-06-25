@@ -4,15 +4,15 @@ import Image from "next/image";
 
 const NavBar = () => {
   return (
-    <nav className="fixed w-full h-24 shadow-xl ">
+    <nav className="fixed w-full h-50 shadow-xl ">
       <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16">
         <Link href="/">
           <Image
             src="/agslogo.png"
             alt="Logo"
-            width="105"
+            width="200"
             height="95"
-            className="cursor-pointer hover:scale-115"
+            className="cursor-pointer transition hover:drop-shadow-xl hover:drop-shadow-blue-200"
             priority
           />
         </Link>
