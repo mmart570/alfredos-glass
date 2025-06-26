@@ -1,10 +1,11 @@
 import Hero from "@/components/home/Hero";
-import NavBar from "@/components/NavBar";
+import OurServices from "@/components/home/OurServices";
 
 const Home = () => {
   return (
     <>
       <Hero />
+      <OurServices />
     </>
   );
 };

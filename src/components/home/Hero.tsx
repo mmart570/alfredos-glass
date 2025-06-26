@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="font-serif flex w-full flex-col items-center justify-center">
+    <div className="flex w-full flex-col items-center justify-center">
       <div className="relative h-250 w-full">
         <Image
           src="/papa.jpg"
@@ -16,13 +16,13 @@ const Hero = () => {
           priority
         />
         <div className="bg-blue-200 absolute inset-0 opacity-80 z-0" />
-        <div className="relative z-10  h-full flex flex-col items-center justify-center text-center pt-20">
-          <h1 className="text-4xl md:text-6xl text-red-700">
+        <div className="relative z-10 h-200 flex flex-col items-center justify-center text-center pt-20">
+          <h1 className="text-4xl md:text-6xl text-[#BF1736]">
             Commercial and Residential <br /> Glass Repair
           </h1>
-          <p className="mt-8 mb-20 text-xl text-pretty">
-            Providing quality service across the Inland Empire at an affordable
-            price!
+          <p className="mt-8 mb-20 text-[#253767] text-xl text-pretty">
+            Providing quality glass services across the Inland Empire at an
+            affordable price!
           </p>
         </div>
       </div>
