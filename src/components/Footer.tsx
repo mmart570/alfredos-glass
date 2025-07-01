@@ -7,9 +7,9 @@ import { FaPhoneVolume } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="bg-[#172e73] text-naama-ivory-100 font-nunito w-full items-center justify-center p-10">
-      <div className="bg-[#D9A404] mb-4 hidden h-0.5 w-full md:flex" />
-      <div className="flex grid-cols-5 flex-col gap-4 md:grid">
+    <div className="text-naama-ivory-100 font-nunito w-full items-center justify-center p-10">
+      <div className="bg-[#172E73] mb-4 hidden h-0.5 w-full md:flex" />
+      <div className="flex grid-cols-5 flex-col gap-4 md:grid text-[#172E73]">
         <div className="border-white flex justify-center border-t-2 pt-4 md:border-0 md:pt-0">
           <Image
             src="/logo.svg"
@@ -20,15 +20,13 @@ const Footer = () => {
           />
         </div>
         <div className="flex flex-col gap-2 md:mr-10">
-          <p className="hidden text-4xl text-[#D9A404] font-semibold md:block">
+          <p className="hidden text-4xl  font-semibold md:block">
             ALFREDO'S GLASS SERVICES
           </p>
         </div>
         <div className="flex flex-col">
-          <p className="pb-3 text-2xl font-semibold text-[#D9A404]">
-            QUICK LINKS
-          </p>
-          <div className="flex flex-col text-lg font-light text-[#D9A404]">
+          <p className="pb-3 text-2xl font-semibold ">QUICK LINKS</p>
+          <div className="flex flex-col text-lg font-light ">
             <Link href="/about" className="hover:opacity-65">
               About
             </Link>
@@ -44,15 +42,15 @@ const Footer = () => {
           </div>
         </div>
         <div className="col-span-2 flex flex-col">
-          <p className="pb-3 text-2xl font-semibold text-[#D9A404]">CONTACT</p>
-          <div className="flex flex-col text-lg font-light text-[#D9A404]">
+          <p className="pb-3 text-2xl font-semibold ">CONTACT</p>
+          <div className="flex flex-col text-lg font-light ">
             <div className="hover:opacity-65">
               <Link
                 href="tel:909-913-3642"
                 className="flex items-center gap-2 hover:opacity-65"
                 target="_blank"
               >
-                <FaPhoneVolume className="text-2xl text-[#D9A404]" />
+                <FaPhoneVolume className="text-2xl " />
                 <p>(909) 913-3642</p>
               </Link>
             </div>
@@ -62,7 +60,7 @@ const Footer = () => {
                 className="flex items-center gap-2 hover:opacity-65"
                 target="_blank"
               >
-                <MdEmail className="text-2xl text-[#D9A404]" />
+                <MdEmail className="text-2xl " />
                 <p>alfredosglass@yahoo.com</p>
               </Link>
             </div>
@@ -72,7 +70,7 @@ const Footer = () => {
                 target="_blank"
                 className="flex gap-2 hover:opacity-65"
               >
-                <FaLocationDot className="text-2xl text-acm-blue-700" />
+                <FaLocationDot className="text-2xl " />
                 <div>
                   <p>1180 E 9th St</p>
                   <p>San Bernardino, CA 92410</p>
@@ -82,7 +80,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#D9A404] mt-4 hidden h-0.5 w-full md:flex" />
+      <div className="bg-[#172E73] mt-4 hidden h-0.5 w-full md:flex" />
     </div>
   );
 };
