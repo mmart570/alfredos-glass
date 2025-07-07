@@ -22,14 +22,14 @@ const WhatWeOffer = ({
   link,
 }: ServiceProps) => {
   return (
-    <div className="grid w-9/12 grid-cols-1 items-center px-4 pt-6 md:grid-cols-3 md:py-12">
-      <div className="col-span-2">
-        <div className="flex flex-wrap justify-center text-center text-2xl font-bold md:justify-start md:text-left md:text-4xl">
+    <div className="grid w-full grid-cols-1 items-center px-40 pt-6 md:grid-cols-2 md:py-20">
+      <div className="col-span-2 bg-gray-300 pt-50 pb-50">
+        <div className="flex flex-wrap justify-center text-center text-2xl font-bold md:text-6xl">
           <p>{header}</p>
           <p className={`${textColor} font-bold`}>&nbsp;{service}&nbsp;</p>
           <p>?</p>
         </div>
-        <div className="w-full py-8 text-center text-xl font-semibold md:w-4/5 md:text-left md:text-2xl">
+        <div className="w-full py-8 text-center text-xl font-semibold md:text-2xl">
           <p className="inline">Join</p>
           <p className="inline font-bold">&nbsp;{acm}&nbsp;</p>
           <p className="inline">{pText}</p>
@@ -37,7 +37,7 @@ const WhatWeOffer = ({
         <div>
           <Link
             href={link}
-            className={`${linkColor} flex items-center justify-center rounded-lg px-4 py-2 text-xl font-semibold text-acm-gray-500`}
+            className={`${linkColor} flex items-center justify-center rounded-lg px-4 py-2 text-xl font-semibold`}
           >
             Learn More →
           </Link>

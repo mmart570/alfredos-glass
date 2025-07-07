@@ -2,14 +2,14 @@ import React from "react";
 
 const whatweoffer = [
   {
-    header: "NEED",
-    service: "WINDOWS",
+    header: "BROKEN",
+    service: "WINDOW",
     acm: "ACM Spark",
     pText:
       "where you can develop a static front-end website for campus organizations and companies!",
-    textColor: "text-[#BF1736]",
+    textColor: "text-[#172E73]",
     linkColor: "bg-acm-yellow-100 ",
-    link: "/programs/spark",
+    link: "/services/windows",
   },
   {
     header: "NEED",
@@ -19,27 +19,27 @@ const whatweoffer = [
       "where you can develop wireframes for ACM Spark projects and see your designs come to life!",
     textColor: "text-acm-blue-400",
     linkColor: "bg-acm-blue-100 ",
-    link: "/programs/create",
+    link: "/services/screens",
   },
   {
     header: "NEED",
-    service: "SHOWER DOORS",
+    service: "A NEW SHOWER DOOR",
     acm: "ACM Forge",
     pText:
       "where you can build physical embedded projects across 3 different sub teams: CS, EE, and ME! ",
     textColor: "text-acm-gray-400",
     linkColor: "bg-acm-gray-100 ",
-    link: "/programs/forge",
+    link: "/services/showerdoors",
   },
   {
-    header: "NEED",
-    service: "COMMERCIAL DOORS & LOCKS",
-    acm: "ACM DAS",
+    header: "OWN",
+    service: "A BUSINESS",
+    acm: "COMMERCIAL DOORS & LOCKS",
     pText:
       "where you can work on projects that involve Big Data, Machine Learning, and Computational Stats!",
     textColor: "text-acm-purple-200",
     linkColor: "bg-acm-purple-100",
-    link: "/programs/das",
+    link: "/services/commercial",
   },
 ];
 

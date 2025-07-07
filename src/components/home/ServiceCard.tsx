@@ -30,7 +30,7 @@ const ServiceCard = ({ title, description, index }: ServiceCardProps) => {
   return (
     <motion.div {...dropInAnim(index)}>
       <div className="flex justify-center px-4 sm:px-0">
-        <div className="bg-[#BF1736] flex w-full flex-col items-center rounded-4xl p-6 text-wrap shadow-md shadow-black sm:p-8 md:w-100 md:h-50">
+        <div className="bg-[#BF1736] opacity-90 flex w-full flex-col items-center rounded-4xl p-6 text-wrap shadow-md shadow-black sm:p-8 md:w-100 md:h-50">
           <div className="text-[#253767] font-nunito uppercase text-xl font-bold sm:text-3xl">
             {title}
           </div>
