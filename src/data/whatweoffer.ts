@@ -9,6 +9,7 @@ const whatweoffer = [
       "where you can develop a static front-end website for campus organizations and companies!",
     textColor: "text-[#172E73]",
     linkColor: "bg-acm-yellow-100 ",
+    image: "/glass.jpg",
     link: "/services/windows",
   },
   {
@@ -19,6 +20,7 @@ const whatweoffer = [
       "where you can develop wireframes for ACM Spark projects and see your designs come to life!",
     textColor: "text-acm-blue-400",
     linkColor: "bg-acm-blue-100 ",
+    image: "/screens.jpg",
     link: "/services/screens",
   },
   {

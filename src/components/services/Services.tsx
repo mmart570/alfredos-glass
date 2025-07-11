@@ -13,7 +13,7 @@ const Services = () => {
       </p>
       {whatweoffer.map(
         (
-          { header, service, acm, pText, textColor, linkColor, link },
+          { header, service, acm, pText, textColor, linkColor, image, link },
           index,
         ) => (
           <WhatWeOffer
@@ -24,6 +24,7 @@ const Services = () => {
             pText={pText}
             textColor={textColor}
             linkColor={linkColor}
+            image={image}
             link={link}
           />
         ),
