@@ -27,12 +27,6 @@ const Footer = () => {
         <div className="flex flex-col">
           <p className="pb-3 text-2xl font-semibold ">QUICK LINKS</p>
           <div className="flex flex-col text-lg font-light ">
-            <Link href="/about" className="hover:opacity-65">
-              About
-            </Link>
-            <Link href="/board" className="hover:opacity-65">
-              Contact
-            </Link>
             <Link href="/services" className="hover:opacity-65">
               Services
             </Link>

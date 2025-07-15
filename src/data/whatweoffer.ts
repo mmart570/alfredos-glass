@@ -1,12 +1,21 @@
 import React from "react";
 
-// TURD: swap out the window and screen pics
+// TURD: swap out glass, window, screen, and patio door pics
 
 const whatweoffer = [
   {
     header: "BROKEN",
-    service: "WINDOW",
-    pText: "We cover all repairs and tune-ups, even the smallest crack!",
+    service: "GLASS",
+    pText: "We cover all repairs, even the smallest crack!",
+    textColor: "text-white",
+    linkColor: "bg-[#172E73]",
+    image: "/glass.jpg",
+    link: "/services/windows",
+  },
+  {
+    header: "THINKING OF",
+    service: "NEW WINDOWS",
+    pText: "We install all types of windows tailored to any home rennovation.",
     textColor: "text-white",
     linkColor: "bg-[#172E73]",
     image: "/glass.jpg",
@@ -25,7 +34,16 @@ const whatweoffer = [
   {
     header: "NEED",
     service: "A NEW SHOWER DOOR",
-    pText: "Wow your guests with professional-grade shower doors!",
+    pText: "Wow your guests with high quality shower enclosures!",
+    textColor: "text-white",
+    linkColor: "bg-[#172E73]",
+    image: "/showerdoor.webp",
+    link: "/services/showerdoors",
+  },
+  {
+    header: "OLD",
+    service: "PATIO DOOR",
+    pText: "We'll get that door moving good as new!",
     textColor: "text-white",
     linkColor: "bg-[#172E73]",
     image: "/showerdoor.webp",
@@ -35,7 +53,7 @@ const whatweoffer = [
     header: "OWN",
     service: "A BUSINESS",
     pText:
-      "Don't settle for cheap! Get the proper commercial storefront service specific for your needs!",
+      "Don't settle for cheap! Get the proper commercial storefront service tailored to your needs!",
     textColor: "text-white",
     linkColor: "bg-[#172E73]",
     image: "/storefront.webp",

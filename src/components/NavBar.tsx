@@ -18,12 +18,6 @@ const NavBar = () => {
         </Link>
         <div>
           <ul className="hidden sm:flex">
-            <Link href="/about">
-              <li className="ml-10 uppercase hover:border-b text-xl">
-                {" "}
-                About Us
-              </li>
-            </Link>
             <Link href="/services">
               <li className="ml-10 uppercase hover:border-b text-xl ">
                 Services
@@ -32,11 +26,6 @@ const NavBar = () => {
             <Link href="/gallery">
               <li className="ml-10 uppercase hover:border-b text-xl ">
                 Gallery
-              </li>
-            </Link>
-            <Link href="/contact">
-              <li className="ml-10 uppercase hover:border-b text-xl ">
-                Contact Us
               </li>
             </Link>
           </ul>
