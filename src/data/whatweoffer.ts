@@ -10,7 +10,7 @@ const whatweoffer = [
     textColor: "text-white",
     linkColor: "bg-[#172E73]",
     image: "/glass.jpg",
-    link: "/services/windows",
+    link: "/services/glass",
   },
   {
     header: "THINKING OF",
@@ -47,7 +47,7 @@ const whatweoffer = [
     textColor: "text-white",
     linkColor: "bg-[#172E73]",
     image: "/showerdoor.webp",
-    link: "/services/showerdoors",
+    link: "/services/patio",
   },
   {
     header: "OWN",

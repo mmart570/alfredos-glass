@@ -11,10 +11,9 @@ const OurStory = () => {
         <Image
           src="/glass.jpg"
           alt="Papa"
-          width="1000"
-          height="200"
-          className="w-full ml-8 shadow-xl"
-          priority
+          width="3000"
+          height="300"
+          className="w-full ml-8 shadow-xl rounded-3xl"
         />
         <p className="ml-20 mt-20 mr-8 text-4xl text-[#172E73] font-semibold">
           We have serviced San Bernardino and cities across the Inland Empire
