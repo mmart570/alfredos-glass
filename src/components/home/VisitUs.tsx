@@ -2,6 +2,8 @@
 import React, { useEffect } from "react";
 import { Loader } from "@googlemaps/js-api-loader";
 
+// TURD: ADD GET DIRECTIONS BUTTON
+
 const VisitUs = () => {
   const mapRef = React.useRef<HTMLDivElement>(null);
 
@@ -13,27 +15,44 @@ const VisitUs = () => {
       });
 
       const { Map } = await loader.importLibrary("maps");
+      // init a marker
+      const { Marker } = (await loader.importLibrary(
+        "marker",
+      )) as google.maps.MarkerLibrary;
 
       const position = {
-        lat: 34.116508985936534,
-        lng: -117.26263771794464,
+        lat: 34.11631,
+        lng: -117.2626,
       };
 
       // map options
       const mapOptions: google.maps.MapOptions = {
         center: position,
-        zoom: 17,
+        zoom: 20,
         mapId: "MY_NEXTJS_MAPID",
       };
 
       //setup map
       const map = new Map(mapRef.current as HTMLDivElement, mapOptions);
+
+      // put up a marker
+      const marker = new Marker({
+        map: map,
+        position: position,
+      });
     };
 
     initMap();
   }, []);
 
-  return <div style={{ height: "600px" }} ref={mapRef} />;
+  return (
+    <div>
+      <h1 className="text-6xl text-[#172E73] italic font-serif flex justify-center font-semibold pt-36 pb-10">
+        VISIT US
+      </h1>
+      <div style={{ height: "600px" }} ref={mapRef} />
+    </div>
+  );
 };
 
 export default VisitUs;
