@@ -28,7 +28,7 @@ const VisitUs = () => {
       // map options
       const mapOptions: google.maps.MapOptions = {
         center: position,
-        zoom: 20,
+        zoom: 15,
         mapId: "MY_NEXTJS_MAPID",
       };
 

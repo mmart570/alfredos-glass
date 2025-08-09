@@ -24,12 +24,24 @@ const Services = () => {
         </Link>
       </motion.div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-8 place-items-center">
-        <ServiceCard title="Glass Replacement" index={1} />
-        <ServiceCard title="Retrofit Windows" index={2} />
-        <ServiceCard title="Screens" index={3} />
-        <ServiceCard title="Shower Doors" index={4} />
-        <ServiceCard title="Patio Doors" index={5} />
-        <ServiceCard title="Commercial Doors & Locks" index={6} />
+        <ServiceCard
+          title="Glass Replacement"
+          index={1}
+          image="/glassreplace.jpg"
+        />
+        <ServiceCard
+          title="Retrofit Windows"
+          index={2}
+          image="/retrofit.webp"
+        />
+        <ServiceCard title="Screens" index={3} image="/screenmats.jpg" />
+        <ServiceCard title="Shower Doors" index={4} image="/showerdoor2.webp" />
+        <ServiceCard title="Patio Doors" index={5} image="/patiodoor.jpg" />
+        <ServiceCard
+          title="Commercial Doors & Locks"
+          index={6}
+          image="/doorlock.jpg"
+        />
       </div>
     </div>
   );

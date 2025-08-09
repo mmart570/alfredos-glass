@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
 import React from "react";
@@ -8,6 +8,7 @@ interface ServiceCardProps {
   title: string;
   altText?: string;
   index: number;
+  image: string;
 }
 
 const dropInAnim = (index: number) => ({
@@ -17,11 +18,17 @@ const dropInAnim = (index: number) => ({
   viewport: { once: true },
 });
 
-const ServiceCard = ({ title, index }: ServiceCardProps) => {
+const ServiceCard = ({ title, index, image }: ServiceCardProps) => {
   return (
     <motion.div {...dropInAnim(index)} className="w-full">
-      <div className="bg-[#BF1736] opacity-90 flex w-full flex-col justify-center rounded-4xl p-6 shadow-md shadow-black sm:p-8 md:w-100 md:h-50">
-        <div className="text-[#253767] font-nunito uppercase text-xl font-bold sm:text-3xl">
+      <div className="relative overflow-hidden border-[#BF1736] border-8 flex w-full flex-col justify-center rounded-4xl p-6 shadow-md shadow-black sm:p-8 md:w-100 md:h-120">
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="absolute object-cover object-center opacity-50"
+        />
+        <div className="text-[#253767] font-nunito z-0 uppercase text-xl font-bold sm:text-3xl">
           {title}
         </div>
       </div>
