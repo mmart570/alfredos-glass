@@ -37,7 +37,7 @@ const Hero = () => {
         </div>
         <motion.div {...ButtonAnimation} className="flex justify-center">
           <Link
-            href="/services"
+            href="tel:909-913-3642"
             className="rounded-lg font-semibold z-10 bg-[#172E73] px-4 py-2 mt-2 text-4xl text-white"
           >
             SCHEDULE YOUR NEXT REPAIR TODAY!

@@ -2,12 +2,15 @@
   "name": "alfredos-glass-services",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mmart570.github.io/alfredos-glass/",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "predeploy": "npm run build",
+    "deploy": "npm run build"
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.10",
@@ -26,6 +29,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "prettier": "^3.5.3",
     "tailwindcss": "^4.1.10",
