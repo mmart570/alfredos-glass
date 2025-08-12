@@ -10,7 +10,7 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "predeploy": "npm run build",
-    "deploy": "npm run build"
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.10",
