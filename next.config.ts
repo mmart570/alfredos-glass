@@ -1,15 +1,14 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const isGithubPages = process.env.GITHUB_PAGES === "true";
 
-const isProd = process.env.NODE_ENV === "production";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-  output: "export",
-  basePath: isProd ? "/alfredos-glass" : "",
-  assetPrefix: isProd ? "/alfredos-glass" : "",
+const nextConfig = {
+  reactStrictMode: true,
+  output: isGithubPages ? "export" : undefined,
   images: {
-    unoptimized: true,
+    unoptimized: isGithubPages, // Needed for GitHub Pages
   },
+  basePath: isGithubPages ? "/alfredos-glass" : "", // change to your repo name
+  assetPrefix: isGithubPages ? "/alfredos-glass/" : "",
 };
 
-export default nextConfig;
+module.exports = nextConfig;
