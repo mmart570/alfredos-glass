@@ -21,14 +21,14 @@ const dropInAnim = (index: number) => ({
 const ServiceCard = ({ title, index, image }: ServiceCardProps) => {
   return (
     <motion.div {...dropInAnim(index)} className="w-full">
-      <div className="relative overflow-hidden border-[#BF1736] border-8 flex w-full flex-col justify-center rounded-4xl p-6 shadow-md shadow-black sm:p-8 md:w-100 md:h-120">
+      <div className="relative overflow-hidden border-[#F0C03A] border-8 flex w-full flex-col justify-center rounded-4xl p-6 shadow-md shadow-black sm:p-8 md:w-100 md:h-120">
         <Image
           src={image}
           alt={title}
           fill
           className="absolute object-cover object-center opacity-50"
         />
-        <div className="text-[#253767] font-nunito z-0 uppercase text-xl font-bold sm:text-3xl">
+        <div className="text-[#11192E] font-nunito z-0 uppercase text-xl font-bold sm:text-3xl">
           {title}
         </div>
       </div>
