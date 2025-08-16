@@ -36,7 +36,7 @@ const Services = () => {
         />
         <ServiceCard title="Screens" index={3} image="/screenmats.jpg" />
         <ServiceCard title="Shower Doors" index={4} image="/showerdoor2.webp" />
-        <ServiceCard title="Patio Doors" index={5} image="/patiodoor.jpg" />
+        <ServiceCard title="Entry Doors" index={5} image="/patiodoor.jpg" />
         <ServiceCard
           title="Commercial Doors & Locks"
           index={6}

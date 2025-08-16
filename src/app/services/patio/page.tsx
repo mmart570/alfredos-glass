@@ -3,10 +3,10 @@ import Image from "next/image";
 
 //TURD: space out each service mini card
 
-const GlassReplacement = () => {
+const EntryDoor = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center uppercase text-[#172E73] ">
-      <h1 className="text-6xl font-semibold py-10">patio doors</h1>
+      <h1 className="text-6xl font-semibold py-10">entry doors</h1>
       <Image
         src="/glass.jpg"
         alt="Papa"
@@ -28,15 +28,15 @@ const GlassReplacement = () => {
           </p>
         </div>
 
-        <p className="z-10 order-3 text-center text-3xl font-bold md:text-right md:text-5xl">
-          track cleaning and tune-ups
-        </p>
+        <div className="z-10 order-3 flex flex-col justify-start text-center text-xl md:order-4 md:text-left md:text-3xl">
+          <p className="pb-2 text-3xl font-bold md:text-5xl">closet doors</p>
+        </div>
         <Image
-          src="/glass.jpg"
+          src="/display.jpg"
           alt="Papa"
           width="3000"
           height="300"
-          className="z-10 order-4 rounded-3xl"
+          className="z-20 order-4 rounded-3xl md:order-4"
         />
 
         <Image
@@ -44,16 +44,27 @@ const GlassReplacement = () => {
           alt="Papa"
           width="3000"
           height="300"
-          className="z-20 order-6 rounded-3xl md:order-5"
+          className="z-10 order-5 md:order-4 rounded-3xl"
         />
-        <div className="z-10 order-5 flex flex-col justify-start text-center text-xl md:order-6 md:text-left md:text-3xl">
+        <p className="z-10 order-4 md:order-5 text-center text-3xl font-bold md:text-right md:text-5xl">
+          track cleaning and tune-ups
+        </p>
+
+        <div className="z-10 order-6 flex flex-col justify-start text-center text-xl md:order-6 md:text-left md:text-3xl">
           <p className="pb-2 text-3xl font-bold md:text-5xl">
-            broken insulated glass unit installation
+            insulated tempered glass units
           </p>
         </div>
+        <Image
+          src="/glass.jpg"
+          alt="Papa"
+          width="3000"
+          height="300"
+          className="z-20 order-7 rounded-3xl md:order-7"
+        />
       </div>
     </div>
   );
 };
 
-export default GlassReplacement;
+export default EntryDoor;

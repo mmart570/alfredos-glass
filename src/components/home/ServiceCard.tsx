@@ -11,6 +11,7 @@ interface ServiceCardProps {
   image: string;
 }
 
+// NOTE: credit to ACM website development **URL**
 const dropInAnim = (index: number) => ({
   initial: { opacity: 0, y: 30 },
   whileInView: { y: 0, opacity: 1 },
@@ -21,7 +22,7 @@ const dropInAnim = (index: number) => ({
 const ServiceCard = ({ title, index, image }: ServiceCardProps) => {
   return (
     <motion.div {...dropInAnim(index)} className="w-full">
-      <div className="relative overflow-hidden border-[#F0C03A] border-8 flex w-full flex-col justify-center rounded-4xl p-6 shadow-md shadow-black sm:p-8 md:w-100 md:h-120">
+      <div className="relative overflow-hidden border-[#F0C03A] border-8 flex w-full flex-col justify-center rounded-4xl p-6 shadow-md h-100 shadow-black sm:p-8 md:w-auto md:h-120">
         <Image
           src={image}
           alt={title}

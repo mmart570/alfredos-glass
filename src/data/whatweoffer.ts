@@ -42,11 +42,11 @@ const whatweoffer = [
   },
   {
     header: "OLD",
-    service: "PATIO DOOR",
+    service: "ENTRY DOOR",
     pText: "We'll get that door moving good as new!",
     textColor: "text-white",
     linkColor: "bg-[#172E73]",
-    image: "/showerdoor.webp",
+    image: "/patiodoor.jpg",
     link: "/services/patio",
   },
   {
