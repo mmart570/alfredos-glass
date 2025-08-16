@@ -29,7 +29,9 @@ const EntryDoor = () => {
         </div>
 
         <div className="z-10 order-3 flex flex-col justify-start text-center text-xl md:order-4 md:text-left md:text-3xl">
-          <p className="pb-2 text-3xl font-bold md:text-5xl">closet doors</p>
+          <p className="pb-2 text-3xl font-bold md:text-5xl">
+            custom closet doors
+          </p>
         </div>
         <Image
           src="/display.jpg"
