@@ -22,8 +22,8 @@ const WhatWeOffer = ({
   link,
 }: ServiceProps) => {
   return (
-    <div className="grid w-full grid-cols-1 items-center px-40 pt-6 md:grid-cols-2 md:py-20">
-      <div className="col-span-2 relative w-full aspect-[6/3]">
+    <div className="grid w-full grid-cols-1 items-center px-4 md:px-10 lg:px-40 pt-6 md:grid-cols-2 md:py-20">
+      <div className="col-span-2 relative w-full aspect-[3/4] md:aspect-[6/3] h-auto">
         {image ? (
           <Image
             src={image}
@@ -34,18 +34,18 @@ const WhatWeOffer = ({
         ) : (
           <div className="bg-gray-300 pt-50 pb-50" />
         )}
-        <div className="absolute inset-0 bg-black opacity-50 z-1 rounded-lg" />
-        <div className="absolute inset-80 z-10 flex flex-wrap justify-center text-center text-2xl font-bold md:text-6xl">
-          <p>{header}</p>
-          <p className={`${textColor} font-bold`}>&nbsp;{service}&nbsp;</p>
-          <p>?</p>
-          <div className="w-full py-8 text-center text-xl font-semibold md:text-2xl">
-            <p className="inline">{pText}</p>
-          </div>
-          <div className="mt-6">
+        <div className="absolute inset-0 bg-black opacity-50 z-0 rounded-lg" />
+
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-10 px-4 md:px-10 lg:px-20 space-y-4 font-bold">
+          <p className="text-3xl md:text-6xl">
+            {header}
+            <span className={`${textColor}`}> {service} ?</span>
+          </p>
+          <p className="mt-4 text-xl md:text-3xl">{pText}</p>
+          <div>
             <Link
               href={link}
-              className={`${linkColor} flex items-center justify-center rounded-lg px-4 py-2 text-xl font-semibold`}
+              className={`${linkColor} mt-6 flex items-center justify-center rounded-lg px-4 py-2 text-xl md:text-3xl font-semibold`}
             >
               Learn More →
             </Link>
