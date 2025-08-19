@@ -8,7 +8,7 @@ const GlassReplacement = () => {
     <div className="flex w-full flex-col items-center justify-center uppercase text-[#172E73] ">
       <h1 className="text-6xl font-semibold py-10">commercial services</h1>
       <Image
-        src="/storefront.webp"
+        src="/papa2.jpg"
         alt="Papa"
         width="900"
         height="900"
@@ -28,6 +28,7 @@ const GlassReplacement = () => {
 
         <p className="z-10 order-3 text-center text-3xl font-bold md:text-right md:text-5xl">
           Laminated Glass
+          <p className="text-xl ">Best for Entry doors</p>
         </p>
         <Image
           src="/storefront.webp"
@@ -38,7 +39,7 @@ const GlassReplacement = () => {
         />
 
         <Image
-          src="/storefront.webp"
+          src="/doorcloser.jpg"
           alt="Papa"
           width="3000"
           height="300"
@@ -46,7 +47,11 @@ const GlassReplacement = () => {
         />
         <div className="z-10 order-5 flex flex-col justify-start text-center text-xl md:order-6 md:text-left md:text-3xl">
           <p className="pb-2 text-3xl font-bold md:text-5xl">
-            Door closer repair and installation
+            Door Hardware Replacement
+            <p className="text-xl">
+              Get services on door closers, lock indicators, key cylinders, and
+              more!
+            </p>
           </p>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="text-naama-ivory-100 font-nunito w-full items-center justify-center p-10">
       <div className="bg-[#172E73] mb-4 hidden h-0.5 w-full md:flex" />
       <div className="flex grid-cols-5 flex-col gap-4 md:grid text-[#172E73]">
-        <div className="border-white flex justify-center border-t-2 pt-4 md:border-0 md:pt-0">
+        <div className="border-[#172E73] flex justify-center border-t-2 pt-4 md:border-0 md:pt-0">
           <Image
             src="/logo.svg"
             alt="AGS Logo"
@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#172E73] mt-4 hidden h-0.5 w-full md:flex" />
+      <div className="bg-[#172E73] mt-4 h-0.5 w-full md:flex" />
     </div>
   );
 };

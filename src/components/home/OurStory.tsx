@@ -14,8 +14,8 @@ const dropInAnim = {
 
 const OurStory = () => {
   return (
-    <div className="flex w-screen flex-col items-center justify-center bg-gray-300 pb-40">
-      <h1 className="text-6xl text-[#172E73] flex justify-center font-semibold py-36">
+    <div className="flex w-screen flex-col items-center justify-center bg-gray-300 pb-20">
+      <h1 className="text-6xl text-[#172E73] flex justify-center font-semibold my-20">
         OUR STORY
       </h1>
       <div className="flex flex-col items-center xl:flex-row">
@@ -26,7 +26,7 @@ const OurStory = () => {
           height="70"
           className="shadow-xl rounded-3xl mx-auto w-[400px] md:w-[600px] lg:w-[700px] xl:ml-8 xl:w-[4000px] h-auto"
         />
-        <div className="flex flex-col ml-20 mt-20 mr-8 text-center gap-10">
+        <div className="flex flex-col mt-20 text-center gap-10">
           <Count
             end={10}
             label="years of servicing the Inland Empire"
@@ -37,7 +37,7 @@ const OurStory = () => {
           />
           <motion.p
             {...dropInAnim}
-            className="text-[#172E73] text-3xl md:text-5xl"
+            className="text-[#172E73] m-2 text-3xl md:text-5xl"
           >
             We are a Hispanic family-owned business that
             <span className="font-bold italic"> knows </span>

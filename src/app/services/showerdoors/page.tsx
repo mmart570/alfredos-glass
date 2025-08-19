@@ -8,7 +8,7 @@ const GlassReplacement = () => {
     <div className="flex w-full flex-col items-center justify-center uppercase text-[#172E73] ">
       <h1 className="text-6xl font-semibold py-10">shower doors</h1>
       <Image
-        src="/showerdoor.webp"
+        src="/showerdisplay.jpg"
         alt="Papa"
         width="900"
         height="900"
@@ -16,7 +16,7 @@ const GlassReplacement = () => {
       />
       <div className="relative my-16 grid grid-cols-1 place-items-center gap-16 overflow-x-clip px-[10%] md:grid-cols-2">
         <Image
-          src="/showerdoor.webp"
+          src="/framed.jpg"
           alt="Papa"
           width="3000"
           height="300"
@@ -30,7 +30,7 @@ const GlassReplacement = () => {
           semi-framed
         </p>
         <Image
-          src="/showerdoor.webp"
+          src="/semiframe.jpg"
           alt="Papa"
           width="3000"
           height="300"

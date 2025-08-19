@@ -8,7 +8,7 @@ const GlassReplacement = () => {
     <div className="flex w-full flex-col items-center justify-center uppercase text-[#172E73] ">
       <h1 className="text-6xl font-semibold py-10">WINDOWS</h1>
       <Image
-        src="/glass.jpg"
+        src="/new-window.jpeg"
         alt="Papa"
         width="900"
         height="900"
@@ -16,7 +16,7 @@ const GlassReplacement = () => {
       />
       <div className="relative my-16 grid grid-cols-1 place-items-center gap-16 overflow-x-clip px-[10%] md:grid-cols-2">
         <Image
-          src="/glass.jpg"
+          src="/ig.jpg"
           alt="Papa"
           width="3000"
           height="300"
@@ -29,10 +29,10 @@ const GlassReplacement = () => {
         </div>
 
         <p className="z-10 order-3 text-center text-3xl font-bold md:text-right md:text-5xl">
-          Retrofit Windows
+          Horizontal Sliding Windows
         </p>
         <Image
-          src="/glass.jpg"
+          src="/window.jpg"
           alt="Papa"
           width="3000"
           height="300"
@@ -40,7 +40,7 @@ const GlassReplacement = () => {
         />
 
         <Image
-          src="/glass.jpg"
+          src="/singlehung.jpg"
           alt="Papa"
           width="3000"
           height="300"
@@ -48,15 +48,18 @@ const GlassReplacement = () => {
         />
         <div className="z-10 order-5 flex flex-col justify-start text-center text-xl md:order-6 md:text-left md:text-3xl">
           <p className="pb-2 text-3xl font-bold md:text-5xl">
-            Block Frame Windows
+            Single-Hung Windows
           </p>
         </div>
 
-        <p className="z-10 order-7 text-center text-3xl font-bold md:text-right md:text-5xl">
-          Nail-On Frame
-        </p>
+        <div className="z-10 order-7 text-center text-3xl font-bold md:text-right md:text-5xl">
+          Replacement Parts
+          <p className="text-xl">
+            single-pane glass, window springs, track tune-ups, and more!
+          </p>
+        </div>
         <Image
-          src="/glass.jpg"
+          src="/brokenglass2.jpg"
           alt="Papa"
           width="3000"
           height="300"

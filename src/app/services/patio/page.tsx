@@ -16,7 +16,7 @@ const EntryDoor = () => {
       />
       <div className="relative my-16 grid grid-cols-1 place-items-center gap-16 overflow-x-clip px-[10%] md:grid-cols-2">
         <Image
-          src="/glass.jpg"
+          src="/patiodoor.jpg"
           alt="Papa"
           width="3000"
           height="300"

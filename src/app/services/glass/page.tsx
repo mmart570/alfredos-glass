@@ -38,7 +38,7 @@ const GlassReplacement = () => {
         />
 
         <Image
-          src="/glass.jpg"
+          src="/tabletop.jpg"
           alt="Papa"
           width="3000"
           height="300"
@@ -54,7 +54,7 @@ const GlassReplacement = () => {
           Mirrors
         </p>
         <Image
-          src="/glass.jpg"
+          src="/mirror.jpg"
           alt="Papa"
           width="3000"
           height="300"

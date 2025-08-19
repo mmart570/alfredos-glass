@@ -9,7 +9,7 @@ const whatweoffer = [
     pText: "We cover all repairs, even the smallest crack!",
     textColor: "text-white",
     linkColor: "bg-[#172E73]",
-    image: "/glass.jpg",
+    image: "/brokenglass.jpg",
     link: "/services/glass",
   },
   {
@@ -18,7 +18,7 @@ const whatweoffer = [
     pText: "We install all types of windows tailored to any home rennovation.",
     textColor: "text-white",
     linkColor: "bg-[#172E73]",
-    image: "/glass.jpg",
+    image: "/new-window.jpeg",
     link: "/services/windows",
   },
   {
@@ -28,7 +28,7 @@ const whatweoffer = [
       "Gone with the flies! Get new screens for your home, including screen patio doors.",
     textColor: "text-white",
     linkColor: "bg-[#172E73]",
-    image: "/screens.jpg",
+    image: "/screens2.jpg",
     link: "/services/screens",
   },
   {
@@ -53,7 +53,7 @@ const whatweoffer = [
     header: "OWN",
     service: "A BUSINESS",
     pText:
-      "Don't settle for cheap! Get the proper commercial storefront service tailored to your needs!",
+      "Get the proper commercial storefront service tailored to your needs!",
     textColor: "text-white",
     linkColor: "bg-[#172E73]",
     image: "/storefront.webp",

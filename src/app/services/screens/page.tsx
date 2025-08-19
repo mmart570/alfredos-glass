@@ -16,7 +16,7 @@ const GlassReplacement = () => {
       />
       <div className="relative my-16 grid grid-cols-1 place-items-center gap-16 overflow-x-clip px-[10%] md:grid-cols-2">
         <Image
-          src="/screens.jpg"
+          src="/re-screen.jpg"
           alt="Papa"
           width="3000"
           height="300"
@@ -34,7 +34,7 @@ const GlassReplacement = () => {
         </div>
 
         <Image
-          src="/screens.jpg"
+          src="/screens2.jpg"
           alt="Papa"
           width="3000"
           height="300"
@@ -45,7 +45,7 @@ const GlassReplacement = () => {
           Screen Patio Doors
         </p>
         <Image
-          src="/screens.jpg"
+          src="/spatiodoor.jpg"
           alt="Papa"
           width="3000"
           height="300"
