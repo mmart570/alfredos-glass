@@ -22,7 +22,7 @@ const dropInAnim = (index: number) => ({
 const ServiceCard = ({ title, index, image }: ServiceCardProps) => {
   return (
     <motion.div {...dropInAnim(index)} className="w-full">
-      <div className="relative overflow-hidden border-[#F0C03A] border-8 flex w-full flex-col justify-center rounded-4xl p-6 shadow-md h-100 shadow-black sm:p-8 md:w-auto md:h-120">
+      <div className="relative overflow-hidden border-[#F0E85C] border-8 flex w-full flex-col justify-center rounded-4xl p-6 shadow-md h-100 shadow-black sm:p-8 md:w-auto md:h-120">
         <Image
           src={image}
           alt={title}

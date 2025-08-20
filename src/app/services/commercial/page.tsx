@@ -6,7 +6,9 @@ import Image from "next/image";
 const GlassReplacement = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center uppercase text-[#172E73] ">
-      <h1 className="text-6xl font-semibold py-10">commercial services</h1>
+      <h1 className="flex justify-center text-center text-5xl md:text-6xl font-semibold py-10">
+        commercial services
+      </h1>
       <Image
         src="/papa2.jpg"
         alt="Papa"
@@ -26,10 +28,10 @@ const GlassReplacement = () => {
           <p className="pb-2 text-3xl font-bold md:text-5xl">Tempered Glass</p>
         </div>
 
-        <p className="z-10 order-3 text-center text-3xl font-bold md:text-right md:text-5xl">
+        <div className="z-10 order-3 text-center text-3xl font-bold md:text-right md:text-5xl">
           Laminated Glass
           <p className="text-xl ">Best for Entry doors</p>
-        </p>
+        </div>
         <Image
           src="/storefront.webp"
           alt="Papa"

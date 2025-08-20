@@ -15,7 +15,7 @@ const dropInAnim = {
 const OurStory = () => {
   return (
     <div className="flex w-screen flex-col items-center justify-center bg-gray-300 pb-20">
-      <h1 className="text-6xl text-[#172E73] flex justify-center font-semibold my-20">
+      <h1 className="text-5xl md:text-6xl italic font-serif text-[#172E73] flex justify-center font-semibold my-20">
         OUR STORY
       </h1>
       <div className="flex flex-col items-center xl:flex-row">

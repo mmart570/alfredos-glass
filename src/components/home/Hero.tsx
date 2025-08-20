@@ -38,7 +38,7 @@ const Hero = () => {
           <motion.div {...ButtonAnimation} className="flex justify-center">
             <Link
               href="tel:909-913-3642"
-              className="flex items-center gap-4 rounded-full font-semibold z-10 bg-[#172E73] px-3 py-5  md:px-7 md:py-10 text-xl md:text-4xl text-white"
+              className="flex items-center gap-4 rounded-full font-semibold z-10 bg-[#F0E85C] px-3 py-5  md:px-7 md:py-10 text-xl md:text-4xl text-[#253767]"
             >
               <FaPhoneVolume className="text-xl md:text-4xl" />
               SCHEDULE YOUR REPAIR TODAY!

@@ -45,9 +45,9 @@ const WhatWeOffer = ({
           <div>
             <Link
               href={link}
-              className={`${linkColor} mt-6 flex items-center justify-center rounded-lg px-4 py-2 text-xl md:text-3xl font-semibold`}
+              className="{linkColor} flex items-center gap-4 rounded-full font-semibold z-10 mt-10 bg-[#F0E85C] px-10 py-5 text-xl md:text-4xl text-[#253767]"
             >
-              Learn More →
+              Learn More
             </Link>
           </div>
         </div>

@@ -57,13 +57,15 @@ const Gallery = () => {
       {/*Map all images in grid display */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20 mb-10">
         {images.map((image, i) => (
-          <div key={i} className="overflow-hidden rounded-xl cursor-pointer">
+          <div
+            key={i}
+            className="relative overflow-hidden rounded-xl cursor-pointer aspect-[5/6]"
+          >
             <Image
               src={image.src}
-              width={1000}
-              height={800}
               alt={image.alt}
-              className="hover:scale-105"
+              fill
+              className="object-cover hover:scale-105"
             />
           </div>
         ))}
@@ -71,7 +73,7 @@ const Gallery = () => {
       <motion.div {...ButtonAnimation} className="flex justify-center">
         <Link
           href="tel:909-913-3642"
-          className="flex items-center gap-4 rounded-full font-semibold z-10 bg-[#172E73] px-5 py-5 md:px-7 md:py-10 text-xl md:text-4xl text-white"
+          className="flex items-center gap-4 rounded-full font-semibold z-10 bg-[#F0E85C] px-5 py-5 md:px-7 md:py-10 text-xl md:text-4xl text-[#253767]"
         >
           <FaPhoneVolume className="text-4xl" />
           SCHEDULE YOUR NEXT PROJECT TODAY!

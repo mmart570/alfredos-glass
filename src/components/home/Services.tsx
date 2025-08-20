@@ -2,6 +2,7 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
 import { motion } from "motion/react";
+import { LuHammer } from "react-icons/lu";
 import Link from "next/link";
 
 const ButtonAnimation = {
@@ -18,9 +19,10 @@ const Services = () => {
       <motion.div {...ButtonAnimation} className="flex justify-center">
         <Link
           href="/services"
-          className="rounded-lg font-semibold bg-[#172E73] px-4 py-2 mt-2 text-4xl text-white"
+          className="flex items-center gap-4 rounded-full font-semibold z-10 bg-[#F0E85C] px-10 py-5  text-xl md:text-4xl text-[#253767]"
         >
-          Learn more →
+          <LuHammer />
+          Learn more
         </Link>
       </motion.div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-8 place-items-center">

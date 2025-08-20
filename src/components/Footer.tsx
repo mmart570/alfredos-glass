@@ -50,12 +50,12 @@ const Footer = () => {
             </div>
             <div className="hover:opacity-65">
               <Link
-                href="mailto:alfredosglass@yahoo.com"
+                href="mailto:alfredosglassservices@gmail.com"
                 className="flex items-center gap-2 hover:opacity-65"
                 target="_blank"
               >
                 <MdEmail className="text-2xl " />
-                <p>alfredosglass@yahoo.com</p>
+                <p>alfredosglassservices@gmail.com</p>
               </Link>
             </div>
             <div className="hover:opacity-65">
