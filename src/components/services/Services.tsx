@@ -2,6 +2,8 @@ import React from "react";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import whatweoffer from "@/data/whatweoffer";
 
+// what we offer layout derived from ACM Atlas
+// https://github.com/acm-ucr/acm-atlas
 const Services = () => {
   return (
     <div className="flex justify-center flex-col text-white">

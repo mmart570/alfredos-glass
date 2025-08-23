@@ -2,10 +2,10 @@
 import { motion } from "motion/react";
 import Link from "next/link";
 import { FaPhoneVolume } from "react-icons/fa6";
-
-import CircularText from "@/components/home/CircularText"; // TURD: delete if unused
 import Image from "next/image";
 
+// animation from ACM Atlas
+// https://github.com/acm-ucr/acm-atlas
 const ButtonAnimation = {
   initial: { opacity: 0, scale: 0.95 },
   whileInView: { opacity: 1, scale: 1 },

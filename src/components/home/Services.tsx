@@ -5,6 +5,8 @@ import { motion } from "motion/react";
 import { LuHammer } from "react-icons/lu";
 import Link from "next/link";
 
+// animation and layout credit to ACM Atlas
+// https://github.com/acm-ucr/acm-atlas
 const ButtonAnimation = {
   initial: { opacity: 0, scale: 0.95 },
   whileInView: { opacity: 1, scale: 1 },

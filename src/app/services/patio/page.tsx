@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-//TURD: space out each service mini card
-
 const EntryDoor = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center uppercase text-[#172E73] ">

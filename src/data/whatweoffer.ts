@@ -1,6 +1,7 @@
 import React from "react";
 
-// TURD: swap out glass, window, screen, and patio door pics
+// adapted from ACM Atlas Repo
+// https://github.com/acm-ucr/acm-atlas
 
 const whatweoffer = [
   {

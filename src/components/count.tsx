@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import CountUp from "react-countup";
 
+//NOTE: Referenced ACM Atlas code https://github.com/acm-ucr/acm-atlas
 interface StatItemProps {
   end: number;
   label: string;

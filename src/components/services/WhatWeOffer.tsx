@@ -2,6 +2,8 @@ import React from "react";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
+// adapted from ACM Atlas
+// https://github.com/acm-ucr/acm-atlas
 interface ServiceProps {
   header: string;
   service: string;

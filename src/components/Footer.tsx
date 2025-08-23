@@ -5,6 +5,8 @@ import { MdEmail } from "react-icons/md";
 import { FaMedium, FaLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";
 
+//NOTE: layout adapted from ACM Atlas Github Repo
+// https://github.com/acm-ucr/acm-atlas
 const Footer = () => {
   return (
     <div className="text-naama-ivory-100 font-nunito w-full items-center justify-center p-10">

@@ -4,6 +4,8 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import React from "react";
 
+// design adapted from Acm Atlas
+// https://github.com/acm-ucr/acm-atlas
 interface ServiceCardProps {
   title: string;
   altText?: string;
@@ -11,7 +13,7 @@ interface ServiceCardProps {
   image: string;
 }
 
-// NOTE: credit to ACM website development **URL**
+// NOTE: animation credit to ACM website development
 const dropInAnim = (index: number) => ({
   initial: { opacity: 0, y: 30 },
   whileInView: { y: 0, opacity: 1 },

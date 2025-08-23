@@ -4,7 +4,8 @@ import Image from "next/image";
 import Count from "@/components/count";
 import { motion } from "framer-motion";
 
-// NOTE: credit to ACM website development **URL**
+// animation credit to ACM Atlas
+// https://github.com/acm-ucr/acm-atlas
 const dropInAnim = {
   initial: { opacity: 0, y: 30 },
   whileInView: { y: 0, opacity: 1 },
